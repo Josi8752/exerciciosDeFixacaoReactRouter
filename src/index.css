@@ -8,7 +8,7 @@
 
 
     --color-font-primary: #fff;
-    --color-font-secundary:#6F6F6F;
+    --color-font-secundary: #6F6F6F;
 }
 
 * {
@@ -38,4 +38,19 @@ a, a:hover {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+}
+
+.card {
+    height: 200px;
+    background-color: var(--color-bg-secundary);
+    border-radius: 6px;
+}
+
+.btn-next {
+    background-color: var(--color-bg-primary);
+    border-radius: 6px;
+    color: var(--color-font-primary);
+    font-weight: 700;
+    font-size: 16px;
+
 }
