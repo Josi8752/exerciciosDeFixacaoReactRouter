@@ -1,9 +1,12 @@
-import 'styles.css';
+import './styles.css';
 
-export default function BtnNext() {
+type Props = {
+    text: string;
+}
+export default function BtnNext({text}: Props) {
     return (
         <div className="btn-next">
-            <button type="submit">Ver promoção</button>
+           {text}
         </div>
     );
 }

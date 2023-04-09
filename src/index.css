@@ -3,8 +3,9 @@
 :root {
 
     --color-bg-primary: #FF2323;
-    --color-bg-secundary: #f6f1f1;
-    --color-bg-terciary: #fff;
+    --color-bg-secundary: #d3d0d0;
+    --color-bg-terciary: #f6f1f1;
+    --color-bg-quaternary: #fff;
 
 
     --color-font-primary: #fff;
@@ -33,7 +34,6 @@ a, a:hover {
     text-decoration: none;
 }
 
-
 .container {
     width: 100%;
     max-width: 960px;
@@ -42,15 +42,11 @@ a, a:hover {
 
 .card {
     height: 200px;
-    background-color: var(--color-bg-secundary);
+    background-color: var(--color-bg-quaternary);
     border-radius: 6px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
-.btn-next {
-    background-color: var(--color-bg-primary);
-    border-radius: 6px;
-    color: var(--color-font-primary);
-    font-weight: 700;
-    font-size: 16px;
 
-}

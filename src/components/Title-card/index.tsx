@@ -1,8 +1,9 @@
-import 'styles.css';
+import './styles.css'
+
 
 export default function TitleCard() {
     return (
-        <div className="card container" >
+        <div>
             <h3>Página inicial</h3>
         </div>
     );

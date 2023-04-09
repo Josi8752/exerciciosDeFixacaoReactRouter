@@ -1,23 +1,24 @@
-import BtnNext from "./components/Btn-next"
-import Header from "./components/Header"
-import TitleCard from "./components/Title-card"
-
-
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom"
+import MySite from "./routes/Home"
+import Promocao from "./routes/Promocao"
+import Inscricao from "./routes/Inscricao"
 
 export default function App() {
 
   return (
 
-    <>
-     <Header/>
-      <main>
-        <section>
-          <TitleCard/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MySite />}>
+          <Route index element={<MySite />} />
+        </Route>
+        <Route path="promocao" element={<Promocao />} />
 
-          <BtnNext/>
-        </section>
-      </main>
-    </>
+        <Route path="inscricao" element={<Inscricao />} />
+
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
