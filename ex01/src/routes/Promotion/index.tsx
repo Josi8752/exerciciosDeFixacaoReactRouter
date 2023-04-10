@@ -1,9 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
-import BtnNext from "../../components/Btn-next";
+import Btn from "../../components/Btn";
 import TitleCard from "../../components/Card";
-import Header from "../../components/Header";
-import Home from "../Home";
-import HomeBody from "../Home/HomeBody";
 
 
 export default function Promocao() {
@@ -15,7 +12,7 @@ export default function Promocao() {
                     <div >
                         <Link to="/"> <TitleCard text='Página de promoção' /></Link>
                     </div>
-                    <Link to="/inscricao"><BtnNext text='Quero participar' /></Link>
+                    <Link to="/subscription"><Btn text='Quero participar' /></Link>
                 </section>
                 <Outlet />
             </main>

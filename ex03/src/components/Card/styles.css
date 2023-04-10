@@ -1,0 +1,11 @@
+.card {
+    height: 200px;
+    background-color: var(--color-bg-quaternary);
+    border-radius: 6px;
+    color: var(--color-font-secundary);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
