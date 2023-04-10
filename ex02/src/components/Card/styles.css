@@ -1,8 +1,8 @@
-.card{
+.card {
     height: 200px;
     background-color: var(--color-bg-tertiary);
     border-radius: 6px;
     color: var(--color-font-secundary);
-    font-size:20px ;
+    font-size: 20px;
     padding: 30px;
 }

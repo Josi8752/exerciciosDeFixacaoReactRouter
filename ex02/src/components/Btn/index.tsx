@@ -1,14 +1,14 @@
 import './styles.css';
 
-type Props={
+type Props = {
     title: string;
 }
 
-export default function Btn({title}: Props) {
+export default function Btn({ title }: Props) {
     return (
 
         <div className='btn'>
-        {title}
+            {title}
         </div>
     );
 }
