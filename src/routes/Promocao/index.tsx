@@ -1,24 +1,24 @@
 import { Link, Outlet } from "react-router-dom";
 import BtnNext from "../../components/Btn-next";
-import TitleCard from "../../components/Title-card";
+import TitleCard from "../../components/Card";
 import Header from "../../components/Header";
+import Home from "../Home";
+import HomeBody from "../Home/HomeBody";
 
 
 export default function Promocao() {
 
     return (
         <>
-            <Header />
             <main>
                 <section className="container">
-                    <div className="card ">
-                        <Link to="/"> <TitleCard /></Link>
+                    <div >
+                        <Link to="/"> <TitleCard text='Página de promoção' /></Link>
                     </div>
-                    <Link to="inscricao"><BtnNext text='Quero participar' /></Link>
-
+                    <Link to="/inscricao"><BtnNext text='Quero participar' /></Link>
                 </section>
+                <Outlet />
             </main>
-
         </>
     );
 }

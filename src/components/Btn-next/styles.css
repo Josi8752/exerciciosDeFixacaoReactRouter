@@ -1,11 +1,18 @@
 .btn-next {
-    width: 160px;
+    width: 165px;
     height: 45px;
     border-radius: 6px;
     background-color: var(--color-bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-next button {
+    background-color: var(--color-bg-primary);
+    border: none;
     color: var(--color-font-primary);
     font-weight: 700;
     font-size: 16px;
-    padding: 13px 20px 13px 20px;
-
 }

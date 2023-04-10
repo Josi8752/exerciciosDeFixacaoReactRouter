@@ -3,8 +3,8 @@
 :root {
 
     --color-bg-primary: #FF2323;
-    --color-bg-secundary: #d3d0d0;
-    --color-bg-terciary: #f6f1f1;
+    --color-bg-secundary: #dadada;
+    --color-bg-tertiary: #f6f1f1;
     --color-bg-quaternary: #fff;
 
 
@@ -39,14 +39,3 @@ a, a:hover {
     max-width: 960px;
     margin: 0 auto;
 }
-
-.card {
-    height: 200px;
-    background-color: var(--color-bg-quaternary);
-    border-radius: 6px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 20px;
-}
-
-
